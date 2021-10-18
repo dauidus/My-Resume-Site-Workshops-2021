@@ -244,7 +244,7 @@ jQuery(document).ready(function(){
 		$map.gmap('addMarker', {'position': $lat +','+ $lon  , 'bounds': true}).click(function() {
 			$map.gmap('openInfoWindow', {'content': 'Hello World!'}, this);
 		});
-		$map.gmap('option', 'zoom', 12);
+		$map.gmap('option', 'zoom', 13);
 	});
 
 	// Refresh Map
