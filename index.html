@@ -24,7 +24,6 @@
     <script type="text/javascript" src="js/jquery.carousel.js"></script>
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
-    <script type="text/javascript" src="js/gen_validatorv31.js"></script>
 
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -373,7 +372,7 @@
                     <div class="contact-form">
                         <h3 class="main-heading"><span>Let's keep in touch</span></h3>
                         <div id="contact-status"></div>
-                        <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake"> 
+                        <form action="" id="contactform">
                             <p>
                             	<label for="name">Your Name</label>
                             	<input type="text" name="name" class="input" >
@@ -383,17 +382,13 @@
                             	<input type="text" name="email" class="input">
                             </p>
                             <p>
-                            	<label for="msg_subject">Your Message</label>
-                                <textarea name="msg_subject" cols="88" rows="6" class="textarea" ></textarea>
+                            	<label for="message">Your Message</label>
+                                <textarea name="message" cols="88" rows="6" class="textarea" ></textarea>
                             </p>
                             <input type="submit" name="submit" value="Send your message" class="button transition">
                             <br>this form won't work until the site is connected to a server with php running
                         </form>
                     </div>
-
-                    <!-- Main JS  -->    
-                    <script type="text/javascript" src="assets/js/form-validator.min.js"></script>  
-                    <script type="text/javascript" src="assets/js/contact-form-script.js"></script>
                     <!-- /Contact Form -->
                 </section>
                 <!-- /contact -->  
