@@ -49,7 +49,7 @@
 		
 		if ($mail->Send()) {
 				// If the message is sent successfully print
-				echo "SEND"; 
+				echo "GET"; 
 			} else {
 				// Display Error Message
 				echo MSG_SEND_ERROR; 
